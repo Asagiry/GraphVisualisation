@@ -1,0 +1,6 @@
+C:\Users\voima\source\repos\GraphVisualisation\Graph\bin\Release\GraphTools.dll
+C:\Users\voima\source\repos\GraphVisualisation\Graph\bin\Release\GraphTools.pdb
+C:\Users\voima\source\repos\GraphVisualisation\Graph\obj\Release\GraphTools.csproj.AssemblyReference.cache
+C:\Users\voima\source\repos\GraphVisualisation\Graph\obj\Release\GraphTools.csproj.CoreCompileInputs.cache
+C:\Users\voima\source\repos\GraphVisualisation\Graph\obj\Release\GraphTools.dll
+C:\Users\voima\source\repos\GraphVisualisation\Graph\obj\Release\GraphTools.pdb

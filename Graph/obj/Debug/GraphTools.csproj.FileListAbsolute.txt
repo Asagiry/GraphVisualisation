@@ -1,0 +1,6 @@
+C:\Users\voima\source\repos\Graph\Graph\bin\Debug\GraphTools.dll
+C:\Users\voima\source\repos\Graph\Graph\bin\Debug\GraphTools.pdb
+C:\Users\voima\source\repos\Graph\Graph\obj\Debug\GraphTools.csproj.AssemblyReference.cache
+C:\Users\voima\source\repos\Graph\Graph\obj\Debug\GraphTools.csproj.CoreCompileInputs.cache
+C:\Users\voima\source\repos\Graph\Graph\obj\Debug\GraphTools.dll
+C:\Users\voima\source\repos\Graph\Graph\obj\Debug\GraphTools.pdb

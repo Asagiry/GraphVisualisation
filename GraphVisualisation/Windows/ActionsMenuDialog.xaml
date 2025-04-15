@@ -1,0 +1,83 @@
+﻿<Window x:Class="GraphVisualisation.ActionsMenuDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GraphVisualisation"
+        mc:Ignorable="d"
+        Height="400" Width="600" WindowStyle="None" AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen">
+    <Border BorderThickness ="1" CornerRadius="16" Height="400" Width="600" BorderBrush=" Black" Background="White">
+        <Canvas>
+            <Border BorderThickness ="1" CornerRadius="16" Height="55" Width="300" BorderBrush=" Black" Canvas.Left="150" Canvas.Top="25">
+                <Label Content ="Меню действий" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18"/>
+            </Border>
+            <Button Content="Сложение" FontSize="18" Canvas.Left="45" Canvas.Top="115" Height="50" Width="250" HorizontalAlignment="Center" VerticalAlignment="Top" Click="AddButtonClick">
+                <Button.ToolTip >
+                    <ToolTip FontSize="16">
+                        <StackPanel>
+                            <TextBlock>Сложение ребер и вершин выбранного графа с текущим</TextBlock>
+                            <TextBlock>Ребра первого и второго графа складываются</TextBlock>
+                            <TextBlock>Получается третий граф с ребрами как первого так и второго графа</TextBlock>
+                            <TextBlock>И добавляется в список ваших графов</TextBlock>
+                        </StackPanel>
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            <Button Content="Вычитание" FontSize="18" Canvas.Left="305" Canvas.Top="115" Height="50" Width="250" HorizontalAlignment="Left" VerticalAlignment="Center" Click="SubButtonClick">
+                <Button.ToolTip >
+                    <ToolTip FontSize="16">
+                        <StackPanel>
+                            <TextBlock>Вычитание ребер КРАСНОГО графа из СИНЕГО</TextBlock>
+                            <TextBlock>Ребра второго графа вычитаются из ребер первого</TextBlock>
+                            <TextBlock>В результате если и у КРАСНОГО и у СИНЕГО графа есть такое ребро</TextBlock>
+                            <TextBlock>То оно удаляется, а если у СИНЕГО такого ребра нет</TextBlock>
+                            <TextBlock>Появляется обратное ребро, т.е с другим направлением</TextBlock>
+                            <TextBlock>Результат добавляется в список ваших графов</TextBlock>
+                        </StackPanel>
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            <Button Content="Сохранить граф" FontSize="18" Canvas.Left="45" Canvas.Top="200" Height="50" Width="250" HorizontalAlignment="Left" VerticalAlignment="Top" Click="SaveButtonClick">
+                <Button.ToolTip >
+                    <ToolTip FontSize="16">
+                        <StackPanel>
+                            <TextBlock>Сохраняет текущий граф в XML файл</TextBlock>
+                            <TextBlock>По выбранному вами пути</TextBlock>
+                        </StackPanel>
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            <Button Content="Импортировать граф" FontSize="18" Canvas.Left="305" Canvas.Top="200" Height="50" Width="250" HorizontalAlignment="Left" VerticalAlignment="Center" Click="ImportButtonClick">
+                <Button.ToolTip >
+                    <ToolTip FontSize="16">
+                        <StackPanel>
+                            <TextBlock>Добавляет граф из XML файла</TextBlock>
+                            <TextBlock>По выбранному вами пути</TextBlock>
+                        </StackPanel>
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            <Button Content="Поиск в глубину" FontSize="18" Canvas.Left="45" Canvas.Top="285" Height="50" Width="250" HorizontalAlignment="Center" VerticalAlignment="Top" Click="DeepFirstSearchClick">
+                <Button.ToolTip >
+                    <ToolTip FontSize="16">
+                        <StackPanel>
+                            <TextBlock>Создание дерева из выбранной вершины</TextBlock>
+                            <TextBlock>Совершается обход в глубину</TextBlock>
+                            <TextBlock>Результат отображается в текущий граф</TextBlock>
+                        </StackPanel>
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            <Button Content="Отмена" FontSize="18" Canvas.Left="305" Canvas.Top="285" Height="50" Width="250" HorizontalAlignment="Left" VerticalAlignment="Center" Click="CloseButtonClick">
+                <Button.ToolTip >
+                    <ToolTip FontSize="16">
+                        <StackPanel>
+                            <TextBlock>😀Отмена😀</TextBlock>
+                        </StackPanel>
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+        </Canvas>
+    </Border>
+</Window>
