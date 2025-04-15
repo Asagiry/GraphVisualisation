@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\voima\\source\\repos\\GraphVisualisation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B11B6432-D63F-441A-A3EC-2E2FC7D95E5F}|Graph\\GraphTools.csproj|C:\\Users\\voima\\source\\repos\\GraphVisualisation\\graph\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B11B6432-D63F-441A-A3EC-2E2FC7D95E5F}|Graph\\GraphTools.csproj|c:\\users\\voima\\source\\repos\\graphvisualisation\\graph\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B11B6432-D63F-441A-A3EC-2E2FC7D95E5F}|Graph\\GraphTools.csproj|solutionrelative:graph\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B11B6432-D63F-441A-A3EC-2E2FC7D95E5F}|Graph\\GraphTools.csproj|c:\\users\\voima\\source\\repos\\graphvisualisation\\graph\\arrowline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B11B6432-D63F-441A-A3EC-2E2FC7D95E5F}|Graph\\GraphTools.csproj|C:\\Users\\voima\\source\\repos\\GraphVisualisation\\graph\\arrowline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B11B6432-D63F-441A-A3EC-2E2FC7D95E5F}|Graph\\GraphTools.csproj|solutionrelative:graph\\arrowline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -62,8 +62,7 @@
               "RelativeToolTip": "Graph\\ArrowLine.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAUwEsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T10:57:34.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T10:57:34.056Z"
             },
             {
               "$type": "Document",
@@ -155,7 +154,7 @@
               "RelativeDocumentMoniker": "Graph\\Graph.cs",
               "ToolTip": "C:\\Users\\voima\\source\\repos\\GraphVisualisation\\Graph\\Graph.cs",
               "RelativeToolTip": "Graph\\Graph.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAADwv2gAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAYwGgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T19:05:06.512Z",
               "EditorCaption": ""

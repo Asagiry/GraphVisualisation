@@ -46,11 +46,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
             },
             {
               "$type": "Document",
@@ -154,7 +158,7 @@
               "RelativeDocumentMoniker": "Graph\\Graph.cs",
               "ToolTip": "C:\\Users\\voima\\source\\repos\\GraphVisualisation\\Graph\\Graph.cs",
               "RelativeToolTip": "Graph\\Graph.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAYwGgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAQwGgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T19:05:06.512Z",
               "EditorCaption": ""
